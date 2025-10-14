@@ -1,0 +1,39 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="A page where you can find your next travel destiny">
+    <title>Travel Agency Page</title>
+  </head>
+    <body>
+      <main>
+        <h1>Travel Agency Page</h1>
+          <p>Here we have Packages with many destinies.</p>
+        <h2>Packages</h2>
+          <p>We have trips for Group Travels and Private Tours.</p>
+            <ul>
+              <li><a target="_blank" href="https://www.freecodecamp.org/learn">Group Travels</a></li>
+              <li><a target="_blank" href="https://www.freecodecamp.org/learn">Private Tours</a></li>
+            </ul>
+        <h2>Top Itineraries</h2>
+          <figure>
+            <a target="_blank" href="https://www.freecodecamp.org/learn"><img src="https://cdn.freecodecamp.org/curriculum/labs/colosseo.jpg" alt="the colosseo"></a>
+              <figcaption>The Colosseo</figcaption>
+          </figure>
+          <figure>
+            <a target="_blank" href="https://www.freecodecamp.org/learn"><img src="https://cdn.freecodecamp.org/curriculum/labs/alps.jpg" alt="The alps"></a>
+              <figcaption>The Alps</figcaption>
+          </figure>
+          <figure>
+            <a target="_blank" href="https://www.freecodecamp.org/learn"><img src="https://cdn.freecodecamp.org/curriculum/labs/sea.jpg" alt="The sea"></a>
+              <figcaption>The Sea</figcaption>
+          </figure>
+      </main>
+    </body>
+</html>
+
+
+** end of index.html **
+

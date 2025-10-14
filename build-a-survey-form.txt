@@ -1,0 +1,61 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+
+  <body>
+    <h1 id="title">Game Survey</h1>
+    <p id="description">In this page we'll make a survey form.</p>
+    <form id="survey-form" method="POST" action="">
+      <fieldset>
+        <legend>Personal Informations</legend>
+        <label for="name" id="name-label">Name (required):</label>
+        <input id="name" type="text" required placeholder="Ex. Alesson Dias">
+        <label for="email" id="email-label">Email (required):</label>
+        <input id="email" type="email" placeholder="example@email.com" required>
+        <label for="number" id="number-label">Age (optinal):</label>
+        <input id="number" type="number" min="4" max="64" placeholder="Ex. 21">
+      </fieldset>
+    
+      <fieldset>
+        <legend>Ratings</legend>
+        <label for="dropdwon">How was the game performance?</label>
+        <select id="dropdown">
+          <option value="poor">Poor</option>
+          <option value="satisfactory">Satisfactory</option>
+          <option value="good">Good</option>
+          <option value="very-good">Very Good</option>
+          <option selected value="excellent">Excellent</option>
+        </select>
+      </fieldset>
+
+      <fieldset>
+        <legend>Was a good experience?</legend>
+        <input id="yes-option" type="radio" name="game" value="game">
+        <label for="yes-option">Yes</label>
+        <input id="no-option" type="radio" name="game" value="game">
+        <label for="no-option">No</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>What type of games do you like to play?</legend>
+        <input type="checkbox" id="rpg" name="rpg" value="rpg">
+        <label for="rpg">RPG</label>
+        <input type="checkbox" id="fps" name="fps" value="fps">
+        <label for="fps">FPS</label>
+        <input type="checkbox" id="rts" name="rts" value="rts">
+        <label for="rts">RTS</label>  
+      </fieldset>
+      <label for="comments">Other comments?</label>
+      <textarea id="comments" name="comments" cols="45" rows="10"></textarea>
+      <button id="submit" type="submit">Submit</button>
+    </form>      
+  </body>
+</html>
+
+** end of index.html **
+

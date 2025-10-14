@@ -1,0 +1,52 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Video Compilation Page</title>
+</head>
+
+<body>
+    <main>
+        <h1>Video Compilation Page</h1>
+        <p>Compilado de videos</p>
+        
+        <section>
+            <h2>O Mario kart do Sonic</h2>
+            <p>Alanzoka jogando Sonic Racing</p>
+            <iframe
+            src="https://youtube.com/embed/SUiOnlelU7s?si=7l6bEX0lEmVRaRQ0"
+            title="Alanzoka jogando Sonic Racing"
+            width="500"
+            height="250"></iframe>
+        </section>
+
+        <section>
+            <h2>Mario Party de Lego</h2>
+            <p>Alanzoka jogando Lego party com os amigos</p>
+            <iframe
+            src="https://youtube.com/embed/I4WUSVrjNHE?si=D2nXz9FGrrb8i39l"
+            title="Mario Party de Lego"
+            width="500"
+            height="250"></iframe>
+        </section>
+
+        <section>
+            <h2>Me sabotaram nessa partida! - Mario Party</h2>
+            <p>Alanzoka jogando Mario Party</p>
+            <iframe
+            src="https://youtube.com/embed/48f6f7SbJOA?si=bXbrUO28frjdKuYP"
+            title="Mario Party"
+            width="500"
+            height="250"></iframe>
+        </section>
+     
+    </main>
+</body>
+
+</html>
+
+** end of index.html **
+
