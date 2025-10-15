@@ -1,0 +1,69 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Catalog</title>
+</head>
+
+<body>
+  <table>
+    <thead>
+      <tr>
+        <th>Title</th>
+        <th>Author</th>
+        <th>Genre</th>
+        <th>Publication Year</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1984</td>
+        <td>George Orwell</td>
+        <td>Ficção distópica</td>
+        <td>1949</td>
+      </tr>
+      
+      <tr>
+        <td>A paixão segundo G. H.</td>
+        <td>Clarice Lispector</td>
+        <td>Romance experimental/fluxo de consciência</td>
+        <td>1963</td>
+      </tr>
+      
+      <tr>
+        <td>Eu, Robô</td>
+        <td>Isaac Asimov</td>
+        <td>Ficção científica</td>
+        <td>1950</td>
+      </tr>
+      
+      <tr>
+        <td>Fahrenheit 451</td>
+        <td>Ray Bradbury</td>
+        <td>Ficção científica/distopia</td>
+        <td>1953</td>
+      </tr>
+      
+      <tr>
+        <td>A Guerra da Papoula (Vol. 1)</td>
+        <td>R.F. Kuang</td>
+        <td>Fantasia</td>
+        <td>2022</td>
+      </tr>
+    </tbody>  
+    <tfoot>
+      <tr>
+        <td colspan="4">Total Books: 5</td>
+      </tr>
+    </tfoot>
+  </table>
+</body>
+
+</html>
+
+** end of index.html **
+
