@@ -1,0 +1,39 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Checkout Page</title>
+</head>
+
+<body>
+    <h1>Checkout</h1>
+    
+    <section>
+        <h2>Your Cart</h2>
+        <img src="https://cdn.freecodecamp.org/curriculum/labs/cube.jpg" alt="a new magic cube">
+    </section>
+
+    <section>
+        <h2>Payment Information</h2>
+            <form>
+               <label for="card-name">Name<span class="mandatory" aria-hidden="true">*</span></label>
+               <input type="text" id="card-name" name="card-name" placeholder="Ex. John E." required>
+               <p></p>
+               <label for="card-number">Card Number<span class="mandatory" aria-hidden="true">*</span></label>
+               <input type="text" id="card-number" name="card-number" placeholder="12345" required aria-describedby="card-number-help">
+               <p id="card-number-help">Your card number have to be at least 16 digits</p>
+
+
+            </form>
+    </section>
+
+
+</body>
+
+</html>
+
+** end of index.html **
+
