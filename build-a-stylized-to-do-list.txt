@@ -1,0 +1,97 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Styled To-Do List</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <ul class="todo-list">
+        <h1>My to Do list</h1>
+
+        <li>
+            <input type="checkbox" id="keyboard">
+            <label for="keyboard">Explore gaming keyboards</label>
+            <ul class="sub-item">
+                <li><a class="sub-item-link" target="_blank" href="https://www.kabum.com.br/perifericos/teclado-gamer">Store link</a></link>
+            </ul>
+        </li>
+        
+        <li>
+            <input type="checkbox" id="mouse">
+            <label for="mouse">Explore gaming mouse</label>
+            <ul class="sub-item">
+                <li><a class="sub-item-link" target="_blank" href="https://www.kabum.com.br/perifericos/-mouse-gamer">Store link</a></li>
+            </ul>
+        </li>
+        
+        <li>
+            <input type="checkbox" id="monitor">
+            <label for="monitor">Explore gaming monitor</label>
+            <ul class="sub-item">
+                <li><a class="sub-item-link" target="_blank" href="https://www.kabum.com.br/computadores/monitores/monitor-gamer">Store link</a></li>
+            </ul>
+        </li>
+        
+        <li>
+            <input type="checkbox" id="headset">
+            <label for="headset">Explore gaming headset</label>
+            <ul class="sub-item">
+                <li><a class="sub-item-link" target="_blank" href="https://www.kabum.com.br/perifericos/headset-gamer">Store link</a></li>
+            </ul>
+        </li>
+    </ul>
+
+</body>
+
+</html>
+
+** end of index.html **
+
+** start of styles.css **
+
+h1 {
+  font-family: arial, sans-serif;
+}
+.todo-list {
+  width: 300px;
+  background-color:LightSkyBlue;
+  margin: auto;
+  font-size: 20px;
+  padding: 20px 60px 60px 60px;
+  border-radius: 20px;
+  line-height: 50px;
+  }
+.sub-item {
+  background-color: HoneyDew;
+  padding: 10px 25px;
+  border-radius: 10px;
+  
+}
+a {
+  text-decoration: none;
+}
+a:link {
+  color: darkblue;
+}
+a:hover {
+  color: red;
+}
+a:active {
+  color: green;
+}
+a:focus {
+  outline: 2px solid darkorange;  
+}
+a:visited {
+  color: deeppink
+}
+
+** end of styles.css **
+
