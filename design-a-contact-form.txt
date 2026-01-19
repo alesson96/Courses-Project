@@ -1,0 +1,86 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Contact Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="form-container">
+        <form>
+            <h2>Contact Us</h2>
+            <label for="name">Name:</label>
+            <input id="name" type="text" name="name" required>
+            <label for="email">Email:</label>
+            <input id="email" type="email" name="email" required>
+            <label for="text-area">Message:</label>
+            <textarea id="text-area" name="text-area" required> </textarea>
+            <button type="submit">Submit</button>    
+        </form>
+    </div>
+
+</body>
+
+</html>
+
+** end of index.html **
+
+** start of styles.css **
+
+label, input, textarea {
+  display: block;
+}
+textarea {
+  width: 100%;
+  padding: 0;
+  margin: auto 0 1em 0;
+  height: 8em; 
+}
+.form-container {
+  background-color:rgb(173, 159, 126); 
+  border-radius: 10px;
+  padding:0.5em 1em;
+  width:20em;
+  margin: 10em auto;
+  box-shadow: 0 5px 15px black;
+}
+body {
+  background-color: rgb(98, 179, 226);
+  font-family: Tahoma;
+  font-size: 1.2em;
+}
+h2 {
+  text-align: center
+}
+label {
+  color: #43014a;
+  margin: auto;
+}
+
+input{
+  width: 100%;
+  padding:0;
+  height: 1.8em;
+  margin: auto 0 1em 0;
+}
+
+button{
+  display: block;
+  width: 40%;
+  margin: 1em auto;
+  height: 2.5em;
+  background-color: #64E32D;
+  font-size: 0.9em;
+  cursor: pointer; 
+}
+button:hover {
+  background-color: #a3db89
+}
+
+** end of styles.css **
+
